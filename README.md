@@ -7,4 +7,4 @@
 
 ## Exception known
 > {'error': {'message': 'TOO_MANY_REQUESTS', 'code': -32029, 'data': {'code': 'TOO_MANY_REQUESTS', 'httpStatus': 429, 'path': 'messages.list'}}}
-- Solution: wait some minutes,then try again.
+Solution: wait some minutes,then try again.
