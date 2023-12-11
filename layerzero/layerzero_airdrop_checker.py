@@ -29,8 +29,6 @@ if res.status_code == 200:
                     "src_chain": src_chain,
                     "dst_chain": dst_chain
                 })        
-    print("--- wallet addr ---")
-    print(wallet_addr[3:])
     print("--- total cross chain number ---")
     print(len(res.json().get("result").get("data").get("messages")))
 
